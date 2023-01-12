@@ -57,12 +57,12 @@ main {
 
 .sx {
   transform: rotate(-5deg);
-  transition: 1s all ease;
+  transition: 0.7s all ease;
 }
 
 .dx {
   transform: rotate(5deg);
-  transition: 1s all ease;
+  transition: 0.7s all ease;
 }
 
 .sx:hover,
