@@ -19,6 +19,22 @@ main {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  position: relative;
+  animation-name: fromTop;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fromTop {
+  from {
+    top: -600px;
+    background-color: yellow;
+  }
+  to {
+    top: 0px;
+    background-color: blue;
+  }
 }
 
 .green {
