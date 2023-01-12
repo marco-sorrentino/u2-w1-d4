@@ -19,34 +19,77 @@ main {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+
+.yellow {
+  background: linear-gradient(180deg, #ffffd2 0%, #afb4a2 100%);
   position: relative;
   animation-name: fromTop;
   animation-duration: 3s;
-  animation-delay: 1s;
+  animation-delay: 0.3s;
   animation-fill-mode: both;
 }
 
 @keyframes fromTop {
   from {
     top: -600px;
-    background-color: yellow;
   }
   to {
     top: 0px;
-    background-color: blue;
   }
 }
 
 .green {
   background: linear-gradient(180deg, #d7fed3 0%, #a2b4a3 100%);
+  position: relative;
+  animation-name: delayFromTop;
+  animation-duration: 2s;
+  animation-delay: 0.8s;
+  animation-fill-mode: both;
 }
 
-.yellow {
-  background: linear-gradient(180deg, #ffffd2 0%, #afb4a2 100%);
+@keyframes delayFromTop {
+  from {
+    top: -700px;
+  }
+  to {
+    top: 0px;
+  }
 }
 
 .violet {
   background: linear-gradient(180deg, #cccbf7 0%, #8b8c9a 100%);
+  position: relative;
+  animation-name: delayFromTop2;
+  animation-duration: 2s;
+  animation-delay: 1.3s;
+  animation-fill-mode: both;
+}
+
+@keyframes delayFromTop2 {
+  from {
+    top: -600px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+.uno {
+  position: relative;
+  animation-name: delayFromTop3;
+  animation-duration: 2s;
+  animation-delay: 1.3s;
+  animation-fill-mode: both;
+}
+
+@keyframes delayFromTop3 {
+  from {
+    top: -1300px;
+  }
+  to {
+    top: 0px;
+  }
 }
 
 .text h3 {
